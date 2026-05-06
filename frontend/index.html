@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/CC.Logo.png">
     <title>Home - Civil Card Collection</title>
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/global-styles.css">
@@ -16,21 +17,21 @@
         <div class="nav-left">cc<span>.</span></div>
         <div class="nav-center">
             <a href="index.html">HOME</a>
-            <a href="collections.html">COLLECTIONS</a>
-            <a href="about.html">ABOUT</a>
+            <a href="./pages/collections.html">COLLECTIONS</a>
+            <a href="./pages/about.html">ABOUT</a>
         </div>
         <div class="nav-right">
-            <a href="cart.html">CART</a>
-            <a href="orders.html">ORDER</a>
+            <a href="./pages/cart.html">CART</a>
+            <a href="./pages/orders.html">ORDER</a>
             
             <span class="authSection" id="authSection">
-                <a href="login.html" id="loginBtn" >LOGIN</a>
+                <a href="./pages/login.html" id="loginBtn" >LOGIN</a>
                 <span class="divider">/</span>
-                <a href="register.html" id="registerBtn" >REGISTER</a>
+                <a href="./pages/register.html" id="registerBtn" >REGISTER</a>
             </span>
 
             <span id="userSection" style="display:none;">
-                <a onclick="logout()">LOGOUT</a>
+                <a onclick="logoutMain()">LOGOUT</a>
                 <a id="username"></a>
             </span>
         </div>
@@ -110,7 +111,7 @@
 
             <div class="card-grid" id="products"></div>
 
-            <button onclick= goTocollections() class="view-more">VIEW MORE</button>
+            <button onclick= "goTocollections()" class="view-more">VIEW MORE</button>
             
         </section>
 

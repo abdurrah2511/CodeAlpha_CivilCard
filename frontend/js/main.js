@@ -269,10 +269,20 @@ function saveToCart(product) {
 }
 
 function viewProduct(id) {
-  window.location.href = "product-single.html?id=" + id;
+  window.location.href = "./pages/product-single.html?id=" + id;
+}
+
+function goTocollections() {
+  window.location.href = "./pages/collections.html";
 }
 
 function logout() {
+  localStorage.clear();
+  alert("You have logged out.");
+  window.location.href = "../index.html";
+}
+
+function logoutMain() {
   localStorage.clear();
   alert("You have logged out.");
   window.location.href = "index.html";

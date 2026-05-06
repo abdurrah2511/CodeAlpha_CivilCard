@@ -37,7 +37,7 @@ async function login() {
     alert("Login successful 🎉");
 
     // redirect to home
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 
   } catch (err) {
     console.log(err);

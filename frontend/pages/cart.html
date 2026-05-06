@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="./css/ani.css">
-    <link rel="stylesheet" href="./css/global-styles.css">
-    <link rel="stylesheet" href="./css/product-single.css">
+    <link rel="icon" href="../image/CC.Logo.png">
+    <title>My Cart - Civil Card Collection</title>
+    <link rel="stylesheet" href="../css/ani.css">
+    <link rel="stylesheet" href="../css/global-styles.css">
+    <link rel="stylesheet" href="../css/cart.css">
 </head>
 <body>
 
@@ -14,7 +15,7 @@
     <nav class="navbar">
         <div class="nav-left">cc<span>.</span></div>
         <div class="nav-center">
-            <a href="index.html">HOME</a>
+            <a href="../index.html">HOME</a>
             <a href="collections.html">COLLECTIONS</a>
             <a href="about.html">ABOUT</a>
         </div>
@@ -35,18 +36,33 @@
         </div>
     </nav>
 
-    <!-- ===== MAIN--PRODUCTS ===== -->
-    <main class="content-container">
-        <div id="product"></div>
+    <!---- ===== CARD AND SUMMARY BOX ===== -->
+    <main class="cart-container">
+        <header class="cart-header">
+            <p>INVENTORY.</p>
+            <h1>MY <span class="highlight">CART</span></h1>
+        </header>
+
+        <div class="divider-line"></div>
+
+        <div class="cart-layout">
+            <section class="cart-items"> 
+                <div id="cart"></div> 
+            </section>
+
+            <aside class="summary-card"></aside>
+        </div>
     </main>
 
-    <!-- ===== FOOTER ===== -->
-     <footer class="footer">
+    <!------ ===== FOOTER ===== -->
+    <footer class="footer">
         <div>CIVIL CARD COLLECTION.</div>
         <div>COPYRIGHT NOT REAL AVENGERS.</div>
         <div>E-COMMERCE INTERNSHIP PROJECT.</div>
     </footer>
 
-    <script src="./js/main.js"></script>
+    <script src="../js/cart.js"></script>
+    <script src="../js/main.js"></script>
+
 </body>
 </html>

@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Collections - Civil Card Collection</title>
-    <link rel="stylesheet" href="./css/global-styles.css">
-    <link rel="stylesheet" href="./css/collections.css">
-    <link rel="stylesheet" href="./css/ani.css">
+    <link rel="icon" href="../image/CC.Logo.png">
+    <title>My Orders - Civil Card Collection</title>
+    <link rel="stylesheet" href="../css/ani.css">
+    <link rel="stylesheet" href="../css/global-styles.css">
+    <link rel="stylesheet" href="../css/order.css">
 </head>
 <body>
 
@@ -14,7 +15,7 @@
     <nav class="navbar">
         <div class="nav-left">cc<span>.</span></div>
         <div class="nav-center">
-            <a href="index.html">HOME</a>
+            <a href="../index.html">HOME</a>
             <a href="collections.html">COLLECTIONS</a>
             <a href="about.html">ABOUT</a>
         </div>
@@ -35,29 +36,16 @@
         </div>
     </nav>
 
-    <!---- ===== ALL CARDS COLLECTIONS ===== -->
-    <main class="collection-container">
-        <header class="collection-header">
-            <h1>COLLECTIONS</h1>
-            <p>.SELECT YOUR HEROES. .FORGE YOUR LEGACY.</p>
+    <!-- ===== ORDER BOX ===== -->
+    <main class="orders-container">
+        <header class="orders-header">
+            <p>ARCHIVE</p>
+            <h1>MY <span class="highlight">ORDERS</span></h1>
         </header>
 
         <div class="divider-line"></div>
 
-        <section class="filter-bar">
-            <div class="filter-buttons">
-                <button onclick="filterByTeam('')" class="filter-btn active">ALL CARDS</button>
-                <button onclick="filterByTeam('STARK')" class="filter-btn">STARK</button>
-                <button onclick="filterByTeam('CAP')" class="filter-btn">CAP</button>
-                <button onclick="filterByTeam('REVENGERS')" class="filter-btn">REVENGERS</button>
-            </div>
-            <div class="search-container">
-                <input type="text" id="search" placeholder="SEARCH">
-            </div>
-        </section>
-
-        <div class="card-grid" id="products"></div>
-        
+        <section class="orders-list"> <div id="orders"></div> </section>
     </main>
 
     <!-- ===== FOOTER ===== -->
@@ -67,7 +55,7 @@
         <div>E-COMMERCE INTERNSHIP PROJECT.</div>
     </footer>
 
-    <script src="./js/main.js"></script>
-
+    <script src="../js/orders.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
