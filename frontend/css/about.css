@@ -1,0 +1,21 @@
+/* ABOUT BOX AND HEADING */
+.about-container {text-align: center;  }
+.about-header { margin-bottom: 30px;  animation: slideDownFade 0.8s ease-out forwards;}
+.small-label { font-size: 23px; line-height: 1.2; color: #bbb; }
+.about-header h1 {font-size: 100px; font-weight: 900; line-height: 0.9; margin-bottom: 10px 0; }
+.highlight { color: #666; }
+.protocol { font-size: 15px; letter-spacing: 5px; color: #bbb; }
+
+/* INFO BOX */
+.info-box { transform: translateY(20px); transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1); }
+.info-box::after { content: ""; position: absolute; top: 0; left: 0; width: 2px; height: 0; background: #fff; transition: height 0.4s ease; }
+.info-box:hover::after { height: 100%; }
+.info-box:hover { background: rgba(255, 255, 255, 0.03); padding-left: 30px; border-radius: 0 20px 20px 0;}
+.info-label span { transition: color 0.3s ease; }
+.info-box:hover .info-label span {color: #fff; animation: glitchText 0.3s infinite; }
+.divider-line { height: 2px; background: #fff; width: 100%; margin: 20px 0; }
+.info-box {background-color: #333; border-radius: 20px; padding: 40px; display: flex; align-items: center; gap: 50px; text-align: left; margin-bottom: 20px;  border: 2px solid #555;  
+           background: rgba(255, 255, 255, 0); backdrop-filter: blur(10px); box-shadow: 0 5px 25px 0 rgba(136, 136, 136, 1);}
+.info-label { font-size: 20px; font-weight: 900; }
+.info-label span { display: block; color: #888; font-size: 45px; }
+.info-box p { font-size: 15px; line-height: 1.2; color: #bbb;  }

@@ -1,0 +1,39 @@
+/* AUTH BOX AND LEFT SIDE */
+.auth-container { display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
+.auth-hero h1 {font-size: 100px; font-weight: 900; line-height: 0.9; margin-bottom: 20px;  animation: slideInRight 0.8s cubic-bezier(0.16, 1, 0.3, 1);}
+.highlight { color: #666; }
+.auth-hero p { font-size: 23px; line-height: 1.2; color: #bbb; max-width: 450px; }
+
+/* RIGHT SIDE */
+.auth-card { border-radius: 40px; animation: terminalFlash 1s ease-in-out; transition: transform 0.4s ease;
+             background: rgba(255, 255, 255, 0); backdrop-filter: blur(10px); box-shadow: 0 5px 25px 0 rgba(136, 136, 136, 1);}
+.auth-card:hover { transform: translateY(-5px); }
+
+/* FOR LOGIN */
+.login-card{padding: 95px 40px;}
+.login-card .tab-divider::before {left: 0; width: 65px;}
+
+/* FOR REGISTER */
+.register-card{padding: 50px 40px;}
+.register-card .tab-divider::before {left: 97px; width: 105px;}
+
+/* DIVIDER */
+.auth-tabs { display: flex; gap: 40px; margin-bottom: 10px; }
+.tab { font-size: 20px; font-weight: 600; color: #666; cursor: pointer; text-decoration: none; position: relative; transition: color 0.3s ease;}
+.tab.active { color: #fff; }
+.tab-divider { height: 1px; background-color: #666; margin-bottom: 40px; position: relative; }
+.tab-divider::before { content: ""; position: absolute; top: 0; height: 1px; background-color: #fff; }
+.tab::before { content: ""; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: #fff; transition: width 0.3s ease;}
+.tab:hover::before { width: 100%;}
+
+/* INPUT */
+.input-group { margin-bottom: 25px; }
+.input-group label { display: block; font-size: 13px; font-weight: 500; color: #888; margin-bottom: 10px; letter-spacing: 1px; }
+.input-group input { width: 100%; height: 40px; border-radius: 10px;; padding: 0 15px; font-size: 15px;  transition: all 0.3s ease; border-bottom: 1px solid rgba(255,255,255,0.2); background: transparent; color:#fff}
+.input-group input:focus { border-bottom: 1px solid #fff; padding-left: 10px; box-shadow: inset 0 -10px 20px -10px rgba(255,255,255,0.1);}
+
+/* BTN */
+.auth-btn { transition: transform 0.3s ease;width: 100%; padding: 15px; border-radius: 10px; border: none; background-color: #666; color: #fff; font-weight: 700; font-size: 15px; margin-top: 20px; cursor: pointer; }
+.auth-btn:hover { transform: translateY(-2px); background-color: #fff; color:#000 }
+.auth-link { display: block; text-align: right; margin-top: 35px; font-size: 13px; color: #fff; text-decoration: underline; font-weight: 500; letter-spacing: 0.5px; }
+ 

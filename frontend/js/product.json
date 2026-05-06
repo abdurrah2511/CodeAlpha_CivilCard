@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Thor Odinson",
+    "title": "God of Thunder",
+    "price": 99.99,
+    "description": "Thor Odinson is the mighty protector of Asgard who wields the power of lightning and the enchanted hammer Mjolnir. After losing his home and family, he transforms from an arrogant prince into a wise leader and a founding member of the Avengers. His journey through loss and war defines him as a resilient warrior committed to defending the Nine Realms from cosmic threats.",
+    "image": "http://localhost:5000/defaults/Thor.webp",
+    "color": "#d9fcff",
+    "rarity": "MYTHICAL",
+    "team": "REVENGERS"
+  },
+  {
+    "name": "Loki Laufeyson",
+    "title": "God Of Mischief",
+    "price": 99.99,
+    "description": "Loki Laufeyson, the God of Mischief, is a master of illusion who evolves from a power-hungry villain into a selfless protector of the multiverse. Driven by a complex struggle for identity as the adoptive son of Odin, he uses his sorcery and cunning to navigate a path of betrayal and redemption. Ultimately, he trades his desire for a throne for a glorious purpose, proving that his unpredictable nature hides a truly heroic core.",
+    "image": "http://localhost:5000/defaults/Loki.webp",
+    "color": "#3da329",
+    "rarity": "MYTHICAL",
+    "team": "REVENGERS"
+  },
+  {
+    "name": "Valkyrie",
+    "title": "Female Warrior",
+    "price": 79.99,
+    "description": "Valkyrie is a legendary elite warrior of Asgard who sought refuge in Sakaar before returning to honor her heritage. As a fierce combatant and skilled pilot, she moved past her grief to lead her people alongside Thor during their greatest battles. Her strength and strategic mind eventually led her to take the throne, ensuring the survival and prosperity of the Asgardian refugees.",
+    "image": "http://localhost:5000/defaults/Valkyrie.webp",
+    "color": "#caf9f2",
+    "rarity": "LEGENDARY",
+    "team": "REVENGERS"
+  },
+  {
+    "name": "Korg",
+    "title": "Kronan Warrior",
+    "price": 59.99,
+    "description": "Korg is a soft-spoken Kronan revolutionary made of rocks who provides unwavering loyalty and comedic relief to his allies. Despite his intimidating physical stature, he possesses a kind heart and a laid-back attitude that makes him an essential moral support for Thor. Whether starting a revolution or fighting Hela, his bravery and friendship prove that true strength comes in many forms.",
+    "image": "http://localhost:5000/defaults/Korg.webp",
+    "color": "#e3d717",
+    "rarity": "EPIC",
+    "team": "REVENGERS"
+  },
+  {
+  "name": "Bruce Banner",
+  "title": "The Hulk",
+  "price": 99.99,
+  "description": "Dr. Bruce Banner is a brilliant scientist who, after a lab accident involving gamma radiation, transforms into the Hulk—a giant, green-skinned avatar of pure physical power. While he initially struggles to control the beast within, he eventually learns to balance his genius intellect with the Hulk's raw strength to defend Earth from massive threats. His journey is a constant battle for inner peace, evolving from a fugitive into a beloved hero and a vital pillar of the Avengers.",
+  "image": "http://localhost:5000/defaults/Hulk.webp",
+  "color": "#318221",
+  "rarity": "MYTHICAL",
+  "team": "REVENGERS"
+  },
+  {
+    "name": "Tony Stark",
+    "title": "Iron Man",
+    "price": 99.99,
+    "description": "Tony Stark is a billionaire genius and industrialist who revolutionized global security by creating the high-tech Iron Man armor. After a life-changing event in Afghanistan, he pivoted from weapons manufacturing to becoming a founding leader of the Avengers. His journey is defined by a brilliant intellect and a relentless drive for innovation, eventually leading him to make the ultimate sacrifice to ensure the safety of the entire universe.",
+    "image": "http://localhost:5000/defaults/IronMan.webp",
+    "color": "#666666",
+    "rarity": "MYTHICAL",
+    "team": "STARK"
+  },
+  {
+    "name": "Peter Parker",
+    "title": "Spider-Man",
+    "price": 89.99,
+    "description": "Peter Parker is a high school student from Queens who gained incredible spider-like abilities after being bitten by a radioactive spider. Mentored by Tony Stark, he balances the struggles of teenage life with the heavy responsibility of being a neighborhood hero. His agility, web-shooting skills, and precognitive spider-sense make him a formidable ally, fueled by the core belief that with great power there must also come great responsibility.",
+    "image": "http://localhost:5000/defaults/SpiderMan.webp",
+    "color": "#a32929",
+    "rarity": "LEGENDARY",
+    "team": "STARK"
+  },
+  {
+    "name": "Natasha Romanoff",
+    "title": "Black Widow",
+    "price": 59.99,
+    "description": "Natasha Romanoff is an elite spy and master assassin who defected from the KGB to become a founding member of the Avengers. Trained in the Red Room, she possesses unparalleled martial arts skills and strategic brilliance, often serving as the team's tactical heart. Her journey is one of redemption, as she works tirelessly to clear the red from her ledger, ultimately proving her loyalty through selfless acts of heroism for her found family.",
+    "image": "http://localhost:5000/defaults/BlackWidow.webp",
+    "color": "#a35629",
+    "rarity": "EPIC",
+    "team": "STARK"
+  },
+  {
+    "name": "T'Challa",
+    "title": "Black Panther",
+    "price": 79.99,
+    "description": "T'Challa is the King of Wakanda and the legendary protector of his nation, wielding the power of the Black Panther through ancient rituals. Enhanced by the heart-shaped herb and a vibranium-weave suit, he combines superhuman strength with advanced technology to defend his people. His leadership is marked by a commitment to justice and a belief in global cooperation, using his immense resources to support his allies on the world stage.",
+    "image": "http://localhost:5000/defaults/BlackPanther.webp",
+    "color": "#5629a3",
+    "rarity": "LEGENDARY",
+    "team": "STARK"
+  },
+  {
+    "name": "James Rhodes",
+    "title": "War Machine",
+    "price": 69.99,
+    "description": "James Rhodes is a decorated U.S. Air Force Colonel and Tony Stark's most trusted friend, operating the heavily weaponized War Machine armor. As a disciplined soldier and skilled pilot, he brings military precision and heavy fire support to the Avengers' front lines. Despite facing personal hardships and physical injuries in the line of duty, his unwavering sense of duty and loyalty to his teammates makes him a cornerstone of Earth's defense.",
+    "image": "http://localhost:5000/defaults/WarMachine.webp",
+    "color": "#a36c29",
+    "rarity": "EPIC",
+    "team": "STARK"
+  },
+  {
+    "name": "Vision",
+    "title": "Synthezoid",
+    "price": 79.99,
+    "description": "Vision is a sophisticated synthezoid created from a vibranium body, the Mind Stone, and the consciousness of the A.I. J.A.R.V.I.S. Possessing the ability to manipulate his density and fire powerful energy blasts, he seeks to understand the complexities of human nature and emotion. His logical perspective and immense power make him a unique protector, dedicated to preserving life and finding the inherent beauty in humanity's survival.",
+    "image": "http://localhost:5000/defaults/Vision.webp",
+    "color": "#2596be",
+    "rarity": "LEGENDARY",
+    "team": "STARK"
+  },
+  {
+    "name": "Steve Rogers",
+    "title": "Captain America",
+    "price": 99.99,
+    "description": "Steve Rogers is a World War II veteran who was transformed by the Super Soldier Serum into the ultimate symbol of liberty. After being frozen in ice for decades, he emerged as the moral compass and tactical leader of the Avengers, wielding his indestructible vibranium shield against tyranny. His unwavering integrity and belief in personal freedom drive him to stand his ground, even when it means defying the very institutions he once served.",
+    "image": "http://localhost:5000/defaults/CaptainAmerica.webp",
+    "color": "#668fd3",
+    "rarity": "MYTHICAL",
+    "team": "CAP"
+  },
+  {
+    "name": "Bucky Barnes",
+    "title": "Winter Soldier",
+    "price": 79.99,
+    "description": "Bucky Barnes is a resilient soldier and Steve Rogers' lifelong friend who was captured and transformed into a brainwashed assassin by Hydra. Outfitted with a powerful cybernetic arm, he spent decades as the Winter Soldier before breaking free from his mental programming. His journey is a grueling path of recovery and redemption, as he fights to regain his humanity while using his elite combat skills to protect a world that once feared him.",
+    "image": "http://localhost:5000/defaults/WinterSoldier.webp",
+    "color": "#3e666d",
+    "rarity": "LEGENDARY",
+    "team": "CAP"
+  },
+  {
+    "name": "Sam Wilson",
+    "title": "Falcon",
+    "price": 69.99,
+    "description": "Sam Wilson is a former military pararescueman who operates the advanced EXO-7 Falcon flight suit equipped with high-tech wings and a drone companion. As a loyal ally to Captain America, he uses his aerial maneuverability and tactical expertise to provide crucial support in the heat of battle. His background in social work and his deep sense of empathy make him more than just a soldier, as he consistently advocates for the marginalized and the misunderstood.",
+    "image": "http://localhost:5000/defaults/Falcon.webp",
+    "color": "#d7d8b5",
+    "rarity": "EPIC",
+    "team": "CAP"
+  },
+  {
+    "name": "Scott Lang",
+    "title": "Ant-Man",
+    "price": 59.99,
+    "description": "Scott Lang is a reformed thief and devoted father who inherited the Ant-Man mantle and the revolutionary Pym Particle technology. Using a specialized suit, he can shrink to the size of an insect or grow into a towering giant, often sneaking past defenses that would stop any other hero. Despite his unconventional background, his resourcefulness and willingness to do whatever it takes for his daughter make him an indispensable and surprisingly heroic ally.",
+    "image": "http://localhost:5000/defaults/AntMan.webp",
+    "color": "#97343a",
+    "rarity": "EPIC",
+    "team": "CAP"
+  },
+  {
+    "name": "Clint Barton",
+    "title": "Hawkeye",
+    "price": 59.99,
+    "description": "Clint Barton is a master archer and highly trained operative who relies on his exceptional precision and a variety of trick arrows to neutralize threats. As one of the most grounded members of the Avengers, he serves as a vital bridge between the world of cosmic gods and the reality of everyday life. His unwavering dedication to his family and his teammates proves that one doesn't need superpowers to be a hero, only a steady hand and a brave heart.",
+    "image": "http://localhost:5000/defaults/Hawkeye.webp",
+    "color": "#963d9f",
+    "rarity": "EPIC",
+    "team": "CAP"
+  },
+  {
+    "name": "Wanda Maximoff",
+    "title": "Scarlet Witch",
+    "price": 89.99,
+    "description": "Wanda Maximoff is an incredibly powerful sorceress capable of wielding chaos magic to alter reality, manipulate energy, and influence minds. Originally fueled by grief and a desire for revenge, she eventually found a sense of belonging among the Avengers before facing immense personal loss. Her struggle to control her vast abilities and her search for a peaceful life define her as one of the most formidable and emotionally complex figures in the multiverse.",
+    "image": "http://localhost:5000/defaults/ScarletWitch.webp",
+    "color": "#79202e",
+    "rarity": "LEGENDARY",
+    "team": "CAP"
+  }
+]

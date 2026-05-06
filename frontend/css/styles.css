@@ -1,0 +1,61 @@
+/* SECTIONS */
+.home-container > :not(.hero-carousel){ margin: 40px auto; text-align: center; padding: 0 20px; gap: 0;}
+.section { margin-bottom: 40px; text-align: center; }
+.section-title { font-size: 95px; font-weight: 900; line-height: 0.9; margin-bottom: 10px 0; position: relative; display: inline-block; overflow: hidden;}
+.section-title span { color: #555; }
+.section-subtitle {  font-size: 15px; letter-spacing: 5px; color: #bbb;  margin: 10px 0 40px 0; }
+.section-title::after {content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-color, #2b2b2b); border-left: 2px solid #fff; animation: reveal 1.5s steps(20) forwards;}
+.section-divider { height: 1px; background: #fff; width: 100%; margin: 30px 0; }
+
+/* DIVIDER */
+.divider-line { height: 2px; background: #555; width: 100%; margin: 30px 0; }
+
+/* FACTIONS */
+.faction-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; animation: fadeInUp 1.2s ease-out forwards;}
+.faction-card { height: 500px; border-radius: 20px; display: flex; flex-direction: column; justify-content: flex-end; position: relative; overflow: hidden; cursor: pointer;}
+.faction-card img { display: block; width: 274%; height: auto; position: absolute; top: 0; left: 0; z-index: 1; top: 50%; left: 50%; transform: translate(-50%, -50%); transition: filter 0.5s ease, opacity 0.5s ease, transform 0.5s ease;}
+.faction-card h3 { font-size: 50px; font-weight: 900; z-index: 2; color: #666;  margin-bottom: 5px; }
+.faction-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px; text-align: center;
+        opacity: 0; transition: opacity 0.5s ease; z-index: 2; background: rgba(0, 0, 0, .5); }
+.faction-card:hover{border-radius: 200px; filter: brightness(1.2); }
+.faction-card:hover .faction-img { filter: blur(20px); opacity: 0.2; transform: scale(1); transition: transform 1s ease;}
+.faction-card:hover .faction-overlay { opacity: 1; background: rgba(0, 0, 0, 0.2);}
+.faction-description { font-size: 20px; color: #666; font-weight: 500; letter-spacing: 1.2px; margin-bottom: 10px; }
+.faction-btn { width: 50%; padding: 8px; border-radius: 10px; border: none; font-size: 15px; font-weight: 700; cursor: pointer; margin-top: 5px; background-color: #000; color: white; }
+
+.stark img {width: 250%; }
+.stark { background-color: #fff; }
+.steve { background-color: #b11; }
+.thor { background-color: rgb(1, 73, 109); }
+
+/* 4 CARDS */
+.card-grid {  display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 30px; }
+.card-item {  transition: all 0.3s ease; background: #1a1a1a50; border: 1px solid var(--item-color); overflow: hidden; border-radius: 20px; padding: 20px; display: flex; flex-direction: column; }
+.card-visual img { width: 100%; margin-bottom: 10px; border: var(--item-color) 1px solid; border-radius: 20px; }
+.card-divider { height: 1px; background: #fff; width: 100%; margin: 10px 0; }
+.card-info {display: flex; justify-content: space-between; align-items: flex-start; text-align: left; }
+.card-text h3 { font-size: 18px; font-weight: 700; margin-bottom: 5px; }
+.card-text .subtitle { font-size: 13px; color: #888; }
+.card-price { font-size: 18px; font-weight: 500; }
+.card-actions { display: flex; flex-direction: column; gap: 5px; }
+.card-item:hover { transform: translateY(-10px); border-color: var(--item-color); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);}
+
+/* 4 CARDS BTNS */
+.btn-add, .btn-view {border: 1px solid var(--item-color); padding: 13px; border-radius: 20px; font-size: 13px; font-weight: 600; cursor: pointer; }
+.btn-add { background: rgba(255 , 255, 255, 0.1); color: #fff; }
+.btn-view { background: #fff; color: #222; }
+.view-more { padding: 15px 25px; background-color: #ffffff; color: #000000; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 15px; border-radius: 50px; border: none; cursor: pointer; transition: transform 0.3s;}
+.btn-add:hover, .btn-view:hover, .view-more:hover { letter-spacing: 4px; box-shadow: 0 0 15px #fff; background: #fff; color: #000;}
+.btn-add, .btn-view { position: relative; overflow: hidden; transition: all 0.3s ease;}
+.btn-add:hover {letter-spacing: 2px; background-color: #fff; color: #000; animation: pulseGlow 1.5s infinite;}
+
+/* WHY CHOOSE US */
+.feature-box { background: #1a1a1a; border-radius: 20px; padding: 40px; display: flex; align-items: center; gap: 190px; text-align: left; border: 1px solid #666;
+        background: rgba(255, 255, 255, 0); backdrop-filter: blur(10px); box-shadow: 0 -5px 25px 0 rgba(136, 136, 136, 1);}
+.feature-img img { width: 150%; border-radius: 15px; border: 2px solid #b11; }
+.feature-text p { font-size: 25px; line-height: 1.2; color: #ccc; }
+.feature-box {transition: 0.3s ease, transform 0.3s ease;}
+.feature-box:hover { background: rgba(255, 255, 255, 0.05); transform: scale(1.01);}
+
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections - Civil Card Collection</title>
+    <link rel="stylesheet" href="./css/global-styles.css">
+    <link rel="stylesheet" href="./css/collections.css">
+    <link rel="stylesheet" href="./css/ani.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <nav class="navbar">
+        <div class="nav-left">cc<span>.</span></div>
+        <div class="nav-center">
+            <a href="index.html">HOME</a>
+            <a href="collections.html">COLLECTIONS</a>
+            <a href="about.html">ABOUT</a>
+        </div>
+        <div class="nav-right">
+            <a href="cart.html">CART</a>
+            <a href="orders.html">ORDER</a>
+            
+            <span class="authSection" id="authSection">
+                <a href="login.html" id="loginBtn" >LOGIN</a>
+                <span class="divider">/</span>
+                <a href="register.html" id="registerBtn" >REGISTER</a>
+            </span>
+
+            <span id="userSection" style="display:none;">
+                <a onclick="logout()">LOGOUT</a>
+                <a id="username"></a>
+            </span>
+        </div>
+    </nav>
+
+    <!---- ===== ALL CARDS COLLECTIONS ===== -->
+    <main class="collection-container">
+        <header class="collection-header">
+            <h1>COLLECTIONS</h1>
+            <p>.SELECT YOUR HEROES. .FORGE YOUR LEGACY.</p>
+        </header>
+
+        <div class="divider-line"></div>
+
+        <section class="filter-bar">
+            <div class="filter-buttons">
+                <button onclick="filterByTeam('')" class="filter-btn active">ALL CARDS</button>
+                <button onclick="filterByTeam('STARK')" class="filter-btn">STARK</button>
+                <button onclick="filterByTeam('CAP')" class="filter-btn">CAP</button>
+                <button onclick="filterByTeam('REVENGERS')" class="filter-btn">REVENGERS</button>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="SEARCH">
+            </div>
+        </section>
+
+        <div class="card-grid" id="products"></div>
+        
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div>CIVIL CARD COLLECTION.</div>
+        <div>COPYRIGHT NOT REAL AVENGERS.</div>
+        <div>E-COMMERCE INTERNSHIP PROJECT.</div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>

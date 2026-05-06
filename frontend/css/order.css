@@ -1,0 +1,36 @@
+/* ORDER BOX */
+.orders-container { width: 50%; transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);}
+.orders-header { margin-bottom: 30px;  animation: slideDownFade 0.8s ease-out forwards;}
+.orders-header p {font-size: 23px; line-height: 1.2; color: #bbb; }
+.orders-header h1 { font-size: 100px; font-weight: 900; line-height: 0.9; margin-bottom: 10px 0; }
+.orders-header .highlight { color: #555; }
+
+/* DIVIDER */
+.divider-line { height: 2px; background: #fff; width: 100%; margin: 20px 0; }
+
+/* ORDER CARD */
+.orders-list { display: flex; flex-direction: column; gap: 30px; }
+.order-card { width: fit-content;  animation: slideDownFade 0.8s ease-out forwards; border-radius: 20px; padding: 20px; justify-content: space-between; display: flex; align-items: center; position: relative; border: 1px solid #ccc; margin-bottom: 15px;
+              background: rgba(255, 255, 255, 0); backdrop-filter: blur(10px); box-shadow: 0 5px 25px 0 rgba(136, 136, 136, 1);}
+.order-card:hover, .cart-card:hover { background: rgba(255, 255, 255, 0.05); border-color: rgba(255, 255, 255, 0.3); transform: translateX(10px); border-radius: 0 20px 20px 0;}
+.order-card::before{ content: ""; position: absolute; left: 0; top: 0; width: 3px; height: 100%; background: #fff; opacity: 0; transition: opacity 0.3s ease;}
+.order-card:hover::before{ opacity: 1;}
+
+/* ORDER DETAIS */
+.order-details .label { font-size: 15px; font-weight: 500; color: #666; margin-bottom: 5px; }
+.order-details .id { font-size: 20px; margin-bottom: 20px; }
+.order-details .date { font-size: 20px; }
+
+/* ORDER SUMMARY */
+.order-summary { text-align: left; }
+.order-summary .label { font-size: 15px; font-weight: 500; color: #666; margin-bottom: 5px; }
+.order-summary .total { font-size: 25px; margin-bottom: 20px; }
+
+/* ORDER STATUS */
+.status { background-color: #ccc; color: #666; padding: 10px 28px; border-radius: 10px; font-size: 12px; font-weight: 500; letter-spacing: 0.5px;}
+.status span { color: #000000; font-weight: 700; font-style: 15px;}
+
+/* IF NOT LOGIN */
+.no-login { animation: slideDownFade 0.8s ease-out forwards; padding: 75px 20px; text-align: center; border: 1px solid #666;
+    border-radius: 20px; background: rgba(255, 255, 255, 0); backdrop-filter: blur(10px); box-shadow: 0 5px 25px 0 rgba(136, 136, 136, 1);}
+.no-login  p { font-size: 20px; color: #bbb; letter-spacing: 2px; text-transform: uppercase; }

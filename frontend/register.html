@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Secure Your Legacy</title>
+    <link rel="stylesheet" href="./css/global-styles.css">
+    <link rel="stylesheet" href="./css/auth.css">
+    <link rel="stylesheet" href="./css/ani.css">
+</head>
+<body>
+
+    
+<!-- ===== HEADER ===== -->
+    <nav class="navbar">
+        <div class="nav-left">cc<span>.</span></div>
+        <div class="nav-center">
+            <a href="index.html">HOME</a>
+            <a href="collections.html">COLLECTIONS</a>
+            <a href="about.html">ABOUT</a>
+        </div>
+        <div class="nav-right">
+            <a href="cart.html">CART</a>
+            <a href="orders.html">ORDER</a>
+            
+            <span class="authSection" id="authSection">
+                <a href="login.html" id="loginBtn" >LOGIN</a>
+                <span class="divider">/</span>
+                <a href="register.html" id="registerBtn" >REGISTER</a>
+            </span>
+
+            <span id="userSection" style="display:none;">
+                <a onclick="logout()">LOGOUT</a>
+                <a id="username"></a>
+            </span>
+        </div>
+    </nav>
+
+    
+<!-- ===== MAIN REGISTER ===== -->
+    <main class="auth-container">
+        <div class="auth-hero">
+            <h1><span class="highlight">SECURE</span><br>YOUR<br>LEGACY.</h1>
+            <p>Join the ultimate hub for AVENGERS collection. Get you card by mail and get exclusive mythical rank cards drops. Manage you faction inventory in one secure terminal</p>
+        </div>
+
+        <div class="auth-card register-card">
+            <div class="auth-tabs">
+                <a href="./login.html" class="tab">LOGIN </a>
+                <span class="tab active">REGISTER</span>
+            </div>
+
+            <div class="tab-divider"></div>
+
+            <form class="auth-form">
+                <div class="input-group">
+                    <label> NAME</label>
+                    <input type="text" id="name" placeholder="">
+                </div>
+
+                <div class="input-group">
+                    <label>EMAIL ADDRESS</label>
+                    <input type="email" id="email" placeholder="">
+                </div>
+
+                <div class="input-group">
+                    <label>PASSWORD</label>
+                    <input type="password" id="password" placeholder="">
+                </div>
+
+                <button type="submit" onclick="register(event)" class="auth-btn">REGISTER</button>
+        
+                <a href="./login.html" class="auth-link">ALREADY HAVE AN ACCOUNT? LOGIN</a>
+            </form>
+        </div>
+    </main>
+
+    
+<!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div>CIVIL CARD COLLECTION.</div>
+        <div>COPYRIGHT NOT REAL AVENGERS.</div>
+        <div>E-COMMERCE INTERNSHIP PROJECT.</div>
+    </footer>
+
+    <script src="./js/register.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>

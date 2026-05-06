@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Civil Card Collection</title>
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/global-styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/ani.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <nav class="navbar">
+        <div class="nav-left">cc<span>.</span></div>
+        <div class="nav-center">
+            <a href="index.html">HOME</a>
+            <a href="collections.html">COLLECTIONS</a>
+            <a href="about.html">ABOUT</a>
+        </div>
+        <div class="nav-right">
+            <a href="cart.html">CART</a>
+            <a href="orders.html">ORDER</a>
+            
+            <span class="authSection" id="authSection">
+                <a href="login.html" id="loginBtn" >LOGIN</a>
+                <span class="divider">/</span>
+                <a href="register.html" id="registerBtn" >REGISTER</a>
+            </span>
+
+            <span id="userSection" style="display:none;">
+                <a onclick="logout()">LOGOUT</a>
+                <a id="username"></a>
+            </span>
+        </div>
+    </nav>
+
+    <!-- ===== HOME CONTAINER ===== -->
+    <main class="home-container">
+
+        <!-- ===== CAROUSEL ===== -->
+        <section class="hero-carousel">
+            <div class="carousel-title">
+                <h1>THE <span class="civil">CIVIL</span> SERIES</h1>
+                <p>DIGITAL DATA CARDS • BATCH 2026 EXCLUSIVE</p>
+            </div>
+
+            <div class="carousel-container">
+                <button onclick="rotate(-1)" class="carousel-btn prev-btn">PREV</button>
+                
+                <div id="cardStage" class="card-stage">
+                    <p >ACCESSING DATABASE...</p>
+                </div>
+
+                <button onclick="rotate(1)" class="carousel-btn next-btn">NEXT</button>
+            </div>
+
+            <div class="view-more-area">
+                <button class="view-more-btn" onclick="goTocollections()">Explore All</button>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+        
+        <!-- ===== FACTION ===== -->
+        <section class="section faction-section">
+
+            <h2 class="section-title">CHOOSE YOU <span>FACTION</span></h2>
+            <p class="section-subtitle">SELECT YOUR HEROES. FORGE YOUR LEGACY</p>
+
+            <div class="divider-line"></div>
+            
+            <div class="faction-grid">
+                <div class="faction-card stark" onclick="filterByFaction('Stark')">
+                    <img src="./image/stark.jpg" alt="Faction Name" class="faction-img">
+            
+                    <div class="faction-overlay">
+                        <h3 class="faction-name">STARK</h3>
+                        <p class="faction-description">THE ACCOUNTABLE.</p>
+                    </div>
+                </div>
+                <div class="faction-card steve" onclick="filterByFaction('Steve')">
+                     <img src="./image/steve.png" alt="Faction Name" class="faction-img">
+            
+                    <div class="faction-overlay">
+                        <h3 class="faction-name">STEVE</h3>
+                        <p class="faction-description">THE DEFIANT.</p>
+                    </div>
+                </div>
+                <div class="faction-card thor" onclick="filterByFaction('Thor')">
+                     <img src="./image/thor.jpg" alt="Faction Name" class="faction-img">
+            
+                    <div class="faction-overlay">
+                        <h3 class="faction-name">THOR</h3>
+                        <p class="faction-description">THE REVENGERS.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ===== CARDS ===== -->
+        <section class="section selling-section">
+            <h2 class="section-title">TOP <span>SELLING</span></h2>
+            <p class="section-subtitle">CHOOSE THE BEST CARDS ON COLLECTION</p>
+
+            <div class="divider-line"></div>
+
+            <div class="card-grid" id="products"></div>
+
+            <button onclick= goTocollections() class="view-more">VIEW MORE</button>
+            
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ===== CHOOSE US ===== -->
+        <section class="section choose-us">
+            <h2 class="section-title">THE <span> CIVIL</span> PROJECT</h2>
+            <p class="section-subtitle"> THE PROJECT THAT LAYED THE FOUNDATION</p>
+            
+            <div class="divider-line"></div>
+
+            <div class="feature-box">
+                <div class="feature-img">
+                    <img src="./image/poster.jpg" alt="image">
+                </div>
+                <div class="feature-text">
+                    <p></p>The Civil Card project is a high-fidelity digital terminal designed to bridge the gap between cinematic storytelling and modern e-commerce. Built with a focus on "pixel-perfect" UI/UX, the platform serves as an immersive archive for premium Marvel collectibles, themed around the iconic conflict of the Sokovia Accords. By utilizing a high-contrast, "Classified" aesthetic and a custom rank-based asset system (SSS to S), the project transforms a standard collectionsping experience into a tactical mission where collectors can browse hero artifacts, manage their personal inventory, and track secure logistics through a tech-heavy, professional interface.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div>CIVIL CARD COLLECTION.</div>
+        <div>COPYRIGHT NOT REAL AVENGERS.</div>
+        <div>E-COMMERCE INTERNSHIP PROJECT.</div>
+    </footer>
+
+    
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
