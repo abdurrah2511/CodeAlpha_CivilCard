@@ -4,13 +4,6 @@ A full-stack Avengers-themed card marketplace where users can browse, collect, a
 
 ---
 
-## 🚀 Live Demo
-
-- 🌐 Frontend: https://your-frontend-url  
-- ⚙️ Backend API: https://your-backend-url/api/products  
-
----
-
 ## ✨ Features
 
 ### 👤 Authentication
@@ -38,10 +31,9 @@ A full-stack Avengers-themed card marketplace where users can browse, collect, a
 
 ### 🎨 UI Features
 - Hero carousel
-- Shop by team section
+- Shop by team 
 - Featured products
-- Product badges (Rare, Legendary)
-- Responsive grid layout
+- Product badges 
 
 ---
 
@@ -57,7 +49,7 @@ A full-stack Avengers-themed card marketplace where users can browse, collect, a
 - Express.js
 
 ### Database
-- MongoDB (Atlas)
+- MongoDB
 
 ### Deployment
 - Frontend: Netlify / Vercel
@@ -66,7 +58,6 @@ A full-stack Avengers-themed card marketplace where users can browse, collect, a
 ---
 
 ## 📂 Project Structure
-
 
 civil-card/
 │
@@ -140,6 +131,7 @@ Open `index.html` in browser
 - Product reviews & ratings
 - Image upload (Cloudinary)
 - Order status tracking
+- Responsive grid layout
 
 ---
 
